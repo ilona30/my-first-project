@@ -13,9 +13,7 @@ a {
   color: inherit;
 }
 
-.main-page-wrapper {
-  background: url("./img/bg/hero.jpg") center top no-repeat, url("./img/bg/bottom-pic.jpg") right bottom 250px no-repeat;
-}
+
 
 .conteiner {
   margin: 0 auto;
@@ -408,4 +406,8 @@ p {
 
 .social__item--icon--insta .social__link:hover {
   background-image: url("./img/icons/socials/in2.png");
+}
+
+.main-page-wrapper {
+  background: url("./img/bg/hero.jpg") center top no-repeat, url("./img/bg/bottom-pic.jpg") right bottom 250px no-repeat;
 }
