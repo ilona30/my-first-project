@@ -310,11 +310,11 @@ p {
   content: "";
   width: 490px;
   height: 505px;
-  background: url("/img/gates.png") center center / cover no-repeat;
+  background: url("/my-first-project/img/gates.png") center center / cover no-repeat;
 }
 
 .about__content {
-  background: url("/img/mountains.png");
+  background: url("/my-first-project/img/mountains.png");
   padding: 70px 82px;
   width: 786px;
   height: 455px;
