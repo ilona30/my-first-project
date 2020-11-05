@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.header_services {
+  margin-bottom: -9px;
+}
+
 .header__col {
   display: flex;
   align-items: center;

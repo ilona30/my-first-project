@@ -47,20 +47,27 @@ justify-content: space-between;
   flex-direction: column;
 }
 
+
 .tours__description-block-1 {
   display: flex;
   justify-content: space-between;
+  width: 90%;
+  padding-left: 3px;
 }
+
 
 .tours__description-block {
   display: flex;
   justify-content: space-between;
-  margin-right: 39px;
   margin-bottom: 18px
 }
 
 .tours__description-block:last-child {
   margin-right: 0;
+}
+
+.tours__description-block-pick {
+  margin-right: 14px;
 }
 
 .tours__description-block-text {
