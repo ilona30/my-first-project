@@ -36,6 +36,7 @@
   height: 67px;
   align-items: flex-start;
   filter: grayscale(100%);
+  transition: grayscale 1s;
 }
 
 .partners__link:hover {

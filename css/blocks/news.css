@@ -40,11 +40,14 @@
 .single-news__date {
   font-size: 14px;
   line-height: 21px;
-  margin-bottom: 12,5;
 }
 
 .single-news__title-two {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 3,5px;
+  margin-top: 13px;
+}
+
+.single-news__text {
+  margin-top: 5px;
 }

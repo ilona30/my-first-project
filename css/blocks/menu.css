@@ -13,6 +13,7 @@
 .menu__link {
   font-size: 14px;
   text-decoration: none;
+  transition: color 0.5s;
 }
 
 .menu__link:hover {

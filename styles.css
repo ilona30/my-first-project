@@ -1,7 +1,9 @@
 @import url('./css/layout/normalize.css');
 @import url('./css/layout/base.css');
+@import url('./css/layout/top.css');
 
-@import  url('./css/layout/main.css');
+
+@import url('./css/layout/main.css');
 @import url('./css/blocks/header.css');
 @import url('./css/blocks/logo.css');
 @import url('./css/blocks/menu.css');
@@ -16,31 +18,86 @@
 @import url('./css/blocks/breadcrumbs.css');
 @import url('./css/blocks/services.css');
 @import url('./css/blocks/inner.css');
+@import url('./css/blocks/reviews.css');
+@import url('./css/blocks/separator.css');
+@import url('./css/blocks/form.css');
 
 
 
 
 
-/* servises page */
 
 
-.top-line {
-  min-height: 409px;
-  background: #001821 url("./img/bg/headline.jpg") center top no-repeat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Welcome Page*/
+
+.welcome {
   display: flex;
-  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url("./img/bg/screen.jpg")  center center / cover no-repeat;
 }
 
-.top-line__conteiner {
+.central {
   display: flex;
-  flex: 1;
   flex-direction: column;
-  justify-content: space-between;
-  padding-bottom: 24px;
+  align-items: center;
 }
 
-.page-title {
-  font-size: 72px;
-  line-heigh: 1;
-  font-weight: bold;
+
+.central__text  {
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-bottom: 53px;
+}
+
+
+.central--asia {
+  opacity: 0;
+  animation: zoom 1s ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(.7);
+  }
+
+  20% {
+    transform: scale(1.15);
+  }
+
+  40% {
+    transform: scale(.9);
+  }
+
+  60% {
+    transform: scale(1.1);
+  }
+
+  80% {
+    transform: scale(.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }

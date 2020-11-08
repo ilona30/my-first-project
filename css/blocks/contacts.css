@@ -16,7 +16,50 @@
   margin-bottom: 4px;
 }
 
-.contacts__graph {
+.contacts__dropdown {
   font-size: 13px;
   text-decoration: underline;
+  position: relative;
+  /*display: inline-flex;*/
+ 
 }
+
+.contacts__dropdown:hover .dropdown__menu {
+  left: 0;
+  opacity: 1;
+}
+
+.dropdown__menu {
+  position: absolute;
+  background: #CDD1D2; 
+  color:  #1E1F20;
+  padding: 15px 19px;
+  width: 156px;
+  top: 100%;
+  left:-9999px;
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.dropdown__menu:before {
+  content: "";
+  display: block;
+  height: 15px;
+  left: 0;
+  right: 0;
+  top: -14px;
+  position: absolute;
+}
+
+.dropdown__item1 {
+  font-weight: bold;
+}
+
+/*.triangle {
+  border: 10px solid transparent;
+  width: 0;
+  height: 0;
+  border-bottom-color: #CDD1D2;
+  border-top-width: 0;
+}*/

@@ -1,7 +1,7 @@
 .page-content {
   background: #FFFFFF;
   color: #303030;
-  padding: 98px 0 86px;
+  padding: 98px 0 84px;
 }
 
 .service {
@@ -36,6 +36,7 @@
 
 .paginator--theme--light {
   color: #000000;
+  margin-left: 25px;
 }
 
 .paginator--theme--light .paginator__item--active .paginator__link {

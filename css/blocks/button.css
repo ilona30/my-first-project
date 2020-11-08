@@ -6,7 +6,12 @@
   font-weight: bold;
   text-transform: uppercase;
   font-size: 14px;
+  transition: background 0.7s;
 }
+
+.button:hover {
+  background: #DA0100;
+} 
 
 .button--color--white {
   background: #FFFFFF;
@@ -16,7 +21,7 @@
   text-transform: uppercase;
   font-size: 14px;
   border-color: #F5170E;
-
+  transition: background, color 0.7s, 0.7s;
 }
 
 .button--color--white:hover {
@@ -32,9 +37,35 @@
   text-transform: uppercase;
   font-size: 14px;
   border-color: #F5170E;
+  transition: background, color 0.7s, 0.7s;
 }
 
 .button--white:hover {
   background: #F5170E;
   color: #FFFFFF;
+}
+
+.button--color--grey {
+  background:#2B2B2B;
+  transition: background 0.7s;
+}
+
+.button--color--grey:hover {
+  background: #8E8E8E;
+}
+
+.button--welcome {
+  background:#F5170E;
+  border-radius: 35px;
+  padding: 18px 58px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: background 0.7s;
+}
+  
+.button--welcome:hover {
+  background: #DA0100;
+
 }
