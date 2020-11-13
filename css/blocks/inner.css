@@ -17,24 +17,32 @@
 .partners {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .partners__item {
-  margin-left: 46px;
   margin-bottom: 49px;
+  min-width: 24%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
 .partners__item:nth-child(4n+1) {
   margin-left: 0;
+  justify-content: flex-start;
+}
+
+.partners__item:nth-child(4n) {
+  justify-content: flex-end;
 }
 
 .partners__link {
   text-decoration: none;
   display: flex;
-  width: 250px;
   height: 67px;
-  align-items: flex-start;
+  align-items: center;
   filter: grayscale(100%);
   transition: grayscale 1s;
 }
