@@ -48,7 +48,7 @@
   background: center center no-repeat;
   position: relative;
   opacity: .5s;
-  transform: .3s;
+  transition: .3s;
 }
 
 .social__link:after {
@@ -78,4 +78,23 @@
 
 .social__item--icon--telegram .social__link:after {
   background-position: 158px -10px;
+}
+
+
+
+
+.social__item--icon--insta .social__link:hover:after {
+  background-position: -122px -10px;
+}
+
+.social__item--icon--fb .social__link:hover:after {
+  background-position: -10px -10px;
+}
+
+.social__item--icon--vk .social__link:hover:after {
+  background-position: -346px -10px;
+}
+
+.social__item--icon--telegram .social__link:hover:after {
+  background-position: -234px -10px;
 }
